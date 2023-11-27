@@ -1,0 +1,40 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+
+.navbar{
+    font-size: 1.20rem;
+    text-decoration: none;
+    font-weight: 500;
+    gap: 35px;
+}
+
+.iconNavBar{
+    padding: 1.3rem;
+    position: absolute;
+    right: 5%;
+    font-size: 2.8rem;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.texto-navbar{
+    color: white;
+}
+
+@media(max-width: 800px){
+    .navbar{
+        font-size: 0.90rem;
+
+    }
+}
