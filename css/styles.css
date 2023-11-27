@@ -5,7 +5,7 @@
 :root {
   --white-color:                #FFFFFF;
   --primary-color:              #FF4400;
-  --section-bg-color:           #f0f8ff;
+  --section-bg-color:           #191818;
   --dark-color:                 #000000;
   --grey-color:                 #d0d1d1;
   --p-color:                    #717275;
@@ -146,6 +146,19 @@ a:hover {
 ::selection {
   background: var(--primary-color);
   color: var(--white-color);
+}
+
+.tituloIcons{
+  font-size: 40px;
+  text-align: center;
+  color: #fa6437;
+  padding-top: 25px;
+}
+
+.texto-icons{
+  padding-top: 10px;
+  font-size: 26px;
+  font-weight: 500;
 }
 
 /*---------------------------------------
@@ -701,7 +714,7 @@ button:focus:not(:focus-visible) {
 /*---------------------------------------
   PRODUCT               
 -----------------------------------------*/
-.front-product {
+.sessao-habilidades {
   background: var(--section-bg-color);
 }
 
@@ -903,6 +916,7 @@ button:focus:not(:focus-visible) {
 	margin-top: 20%;
 }
 .animation-area {
+  position:relative;
 	background: linear-gradient(to left, #191818, #312f30);
 	width: 100%;
 	height: 100vh;
@@ -1047,6 +1061,8 @@ button:focus:not(:focus-visible) {
 }
 
 .corpo-grid-botoes{
+    z-index: 1;
+    position: absolute;
     padding-top: 53rem;
     padding-left: 0rem;
     padding-right: 0rem;
@@ -1079,10 +1095,17 @@ button:focus:not(:focus-visible) {
   margin-right: 2%;
 }
 
+.gridIcons2{
+  display: flex;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
 .separacao{
   flex: 1 0 0%;
   text-align: center
 }
+
 
 
 /*---------------------------------------
@@ -1112,6 +1135,20 @@ button:focus:not(:focus-visible) {
   font-size: 100px;
   transition: color 0.3s;
 }
+
+.fa-git-alt:hover{
+  color: #f1502f;
+  font-size: 100px;
+  transition: color 0.3s;
+}
+
+.fa-computer:hover{
+  color: #ffffff;
+  font-size: 100px;
+  transition: color 0.3s;
+}
+
+fa-computer
 
 .svg-container .path1 {
   transition: fill 0.3s;
@@ -1156,30 +1193,195 @@ button:focus:not(:focus-visible) {
   transition: fill 0.3s;
 }
 
+.svg-container .path8 {
+  transition: fill 0.3s;
+}
+
 .svg-container:hover .path4 {
-  fill: #52147F;
+  fill: #d4f5f7;
   transition: fill 0.3s;
 }
 
 .svg-container:hover .path5 {
-  fill: #52147F;
+  fill: #d4f5f7;
   transition: fill 0.3s;
 }
 
 .svg-container:hover .path6 {
-  fill: #52147F;
+  fill: #d4f5f7;
   transition: fill 0.2s;
 }
 
 .svg-container:hover .path7 {
-  fill: #52147F;
+  fill: #d4f5f7;
   transition: fill 0.3s;
 }
 
+.svg-container:hover .path8 {
+  fill: #4053e4;
+  transition: fill 0.3s;
+}
+
+.svg-container:hover .path10 {
+  fill: #8B00C8;
+  transition: fill 0.3s;
+}
+
+.svg-container:hover .path11 {
+  fill: #03A9F4;
+  transition: fill 0.3s;
+}
+
+.svg-container:hover .path12 {
+  fill: #020F16;
+  transition: fill 0.3s;
+}
+
+.svg-container:hover .path13 {
+  fill: #FF5722;
+  transition: fill 0.3s;
+}
+
+.svg-container:hover .path14 {
+  fill: #1C0802;
+  transition: fill 0.3s;
+}
+
+.svg-container:hover .path15 {
+  fill: #e040fb;
+  transition: fill 0.3s;
+}
+
+.svg-container:hover .path16 {
+  fill: #020f16;
+  transition: fill 0.3s;
+}
+
+.svg-container:hover .path17 {
+  fill: #247c27;
+  transition: fill 0.3s;
+}
+
+.svg-container:hover .path18 {
+  fill: #ffc107;
+  transition: fill 0.3s;
+}
+
+.svg-container:hover .path19 {
+  fill: #212121;
+  transition: fill 0.3s;
+}
 
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
+
+@media screen and (max-width: 1767px) {
+  .grid-inicio {
+    gap: 120px;
+}
+
+.corpo-grid {
+  padding-top: 15rem;
+}
+corpor
+  .style-textos{
+    font-size: 38%;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .lead{
+    font-size: 140%;
+  }
+
+  .custom-btn {
+    font-size: 14px;
+    padding: 13.5px 15px;
+}
+
+.corpo-grid-botoes{
+  padding-top: 49rem;
+}
+
+.style-botoes {
+  font-size: 245%;
+}
+}
+
+@media screen and (max-width: 1657px) {
+  .grid-inicio {
+    gap: 120px;
+}
+
+.corpo-grid {
+  padding-top: 15rem;
+}
+
+  .style-textos{
+    font-size: 38%;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .lead{
+    font-size: 140%;
+  }
+
+  .custom-btn {
+    font-size: 14px;
+    padding: 13.5px 15px;
+}
+
+.corpo-grid-botoes{
+  padding-top: 45rem;
+}
+
+.style-botoes {
+  font-size: 245%;
+}
+}
+
+
+@media screen and (max-width: 1473px) {
+  .grid-inicio {
+    gap: 120px;
+}
+
+.corpo-grid {
+  padding-top: 14rem;
+}
+
+  .style-textos{
+    font-size: 38%;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .lead{
+    font-size: 140%;
+  }
+
+  .custom-btn {
+    font-size: 14px;
+    padding: 13.5px 15px;
+}
+
+.corpo-grid-botoes{
+  padding-top: 40rem;
+}
+
+.style-botoes {
+  font-size: 245%;
+}
+}
+
 @media screen and (max-width: 1400px) {
   .grid-inicio {
     gap: 125px;
@@ -1190,7 +1392,7 @@ button:focus:not(:focus-visible) {
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .lead{
@@ -1200,6 +1402,41 @@ button:focus:not(:focus-visible) {
   .custom-btn {
     font-size: 14px;
     padding: 13.5px 15px;
+}
+}
+
+@media screen and (max-width: 1325px) { 
+  .grid-inicio {
+    gap: 120px;
+}
+
+.corpo-grid {
+  padding-top: 12rem;
+}
+
+  .style-textos{
+    font-size: 35%;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .lead{
+    font-size: 130%;
+  }
+
+  .custom-btn {
+    font-size: 14px;
+    padding: 13.5px 15px;
+}
+
+.corpo-grid-botoes{
+  padding-top: 35rem;
+}
+
+.style-botoes {
+  font-size: 245%;
 }
 }
 

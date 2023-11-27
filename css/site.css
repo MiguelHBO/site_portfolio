@@ -20,10 +20,3 @@
     margin-right: calc(var(--bs-gutter-x) * -.5);
     margin-left: calc(var(--bs-gutter-x) * -.5);
 }
-
-.gridIcons {
-    flex-wrap: wrap;
-    display: flex;
-    flex: 0 0 auto;
-    width: 2%;
-}

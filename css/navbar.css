@@ -3,11 +3,12 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1.3rem;
+    padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 100;
+    background: #191818;
 }
 
 
@@ -32,9 +33,24 @@
     color: white;
 }
 
+@media screen and (max-width: 1473px) {
+    .navbar{
+        font-size: 1.1rem;
+
+    }
+  }
+
+@media(max-width: 1325px){
+    .navbar{
+        font-size: 1.0rem;
+
+    }
+}
+
 @media(max-width: 800px){
     .navbar{
         font-size: 0.90rem;
 
     }
 }
+
