@@ -149,10 +149,10 @@ a:hover {
 }
 
 .tituloIcons{
-  font-size: 40px;
+  font-size: 25px;
   text-align: center;
   color: #fa6437;
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 .texto-icons{
@@ -1269,6 +1269,41 @@ fa-computer
 
 .svg-container:hover .path19 {
   fill: #212121;
+  transition: fill 0.3s;
+}
+
+.svg-container:hover .path20 {
+  fill: #770829;
+  transition: fill 0.3s;
+}
+
+.svg-container:hover .path21 {
+  fill: #e51050;
+  transition: fill 0.3s;
+}
+
+.svg-container:hover .path22 {
+  fill: #f7f5fa;
+  transition: fill 0.3s;
+}
+
+.svg-container:hover .path23 {
+  fill: #dad8db;
+  transition: fill 0.3s;
+}
+
+.svg-container:hover .path24 {
+  fill: #202020;
+  transition: fill 0.3s;
+}
+
+.svg-container:hover .path25 {
+  fill: #F8BF11;
+  transition: fill 0.3s;
+}
+
+.svg-container:hover .path26 {
+  fill: #ffffff;
   transition: fill 0.3s;
 }
 
