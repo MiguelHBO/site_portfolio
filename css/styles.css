@@ -558,6 +558,12 @@ section {
   background: var(--section-bg-color);
 }
 
+.grid-carreira{
+  display: grid;
+  grid-template-columns: 36% 50%;
+  gap: 28px;
+}
+
 /*---------------------------------------
   ABOUT               
 -----------------------------------------*/
@@ -859,6 +865,16 @@ button:focus:not(:focus-visible) {
 }
 
 /*---------------------------------------
+  SOBRE MIM               
+-----------------------------------------*/
+.mt-2 {
+  display: flex;
+}
+
+
+
+
+/*---------------------------------------
   SOCIAL ICON               
 -----------------------------------------*/
 .social-icon {
@@ -884,7 +900,6 @@ button:focus:not(:focus-visible) {
 .social-icon-link:hover {
   color: var(--primary-color);
 }
-
 
 /*---------------------------------------
   FUNDO ANIMADO             
@@ -1105,8 +1120,6 @@ button:focus:not(:focus-visible) {
   flex: 1 0 0%;
   text-align: center
 }
-
-
 
 /*---------------------------------------
   ICONES             
@@ -1493,6 +1506,16 @@ corpor
   }
 }
 
+@media (min-width: 992px){
+.col-lg-7 {
+    flex: 0 0 auto;
+    width: 43.333333%;
+}
+
+.col-lg-5 {
+    width: 80%;
+}
+}
 
 @media screen and (max-width: 991px) {
   .corpo-grid {
